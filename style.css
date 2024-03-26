@@ -1,20 +1,102 @@
-navbar-button {
-  width: 111px;
-  height: 24px;
-  top: 45px;
-  left: 1202px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.container {
-  max-width: 1536px !important;
-}
-
 :root {
   --pinkish: #f56d5e;
 }
 
+/* font size */
+
+.text-xs {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.text-md {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-lg {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-xl {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.text-2xl {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-3xl {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.text-4xl {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.text-5xl {
+  font-size: 48px;
+}
+
+.text-6xl {
+  font-size: 60px;
+}
+
+.text-7xl {
+  font-size: 72px;
+}
+
+.text-8xl {
+  font-size: 96px;
+}
+
+.text-9xl {
+  font-size: 128px;
+}
+
+/* font weidth */
+
+.font-thin {
+  font-weight: 100;
+}
+.font-extralight {
+  font-weight: 200;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
+}
+.font-black {
+  font-weight: 900;
+}
+
+.text-pink {
+  color: var(--pinkish);
+}
 /* .navbar-button {
   button {
     background-color: transparent;
@@ -28,18 +110,9 @@ p {
 
 h2 {
   font-family: "Martel", serif;
-  font-size: 40px !important;
-
-  @media (max-width: 1200px) {
-    font-size: 30px !important;
-  }
 }
 
-span {
-  color: var(--pinkish);
-}
-
-.hero-img {
+/* .hero-img {
   width: 600px;
 
   @media (max-width: 1200px) {
@@ -49,7 +122,7 @@ span {
   @media (max-width: 576px) {
     width: 300px;
   }
-}
+} */
 
 .navbar-button {
   background-color: var(--pinkish) !important;
@@ -62,11 +135,11 @@ span {
   }
 }
 
-/* .hero-wrapper {
+.hero-wrapper {
+  background-color: aqua;
   background-image: url(/gallery/kutsbee-hero-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 0vh;
-  width: 1536px;
-} */
+  min-height: 555px;
+}
