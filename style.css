@@ -162,3 +162,17 @@ h2 {
     width: 100%;
   }
 }
+
+/* journey section */
+
+.journey-wrapper {
+  background-image: url(/public/gallery/journey-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+}
+
+.journey-button {
+  border-radius: 0 !important;
+}
