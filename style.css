@@ -14,7 +14,7 @@
   line-height: 20px;
 }
 
-.text-md {
+.text-mddm {
   font-size: 16px;
   line-height: 24px;
 }
@@ -97,32 +97,18 @@
 .text-pink {
   color: var(--pinkish);
 }
-/* .navbar-button {
-  button {
-    background-color: transparent;
-    border: none;
-  }
-} */
 
 p {
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
   font-family: "Inter", sans-serif;
 }
 
 h2 {
   font-family: "Martel", serif;
 }
-
-/* .hero-img {
-  width: 600px;
-
-  @media (max-width: 1200px) {
-    width: 400px;
-  }
-
-  @media (max-width: 576px) {
-    width: 300px;
-  }
-} */
 
 .navbar-button {
   background-color: var(--pinkish) !important;
@@ -135,6 +121,17 @@ h2 {
   }
 }
 
+/* hero section starts from here */
+
+.hero-container {
+  min-height: calc(100vh - 120px);
+
+  @media (max-width: 576px) {
+    margin-inline: 1rem;
+    margin-block: 2rem;
+  }
+}
+
 .hero-wrapper {
   background-color: aqua;
   background-image: url(/gallery/kutsbee-hero-bg.png);
@@ -142,4 +139,26 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 555px;
+}
+
+.hero-h2 {
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
+}
+
+/* hero section ends here */
+
+.explore-h2 {
+  color: var(--pinkish);
+}
+
+.explore-img {
+  @media (max-width: 1200px) {
+    width: 500px;
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
 }
