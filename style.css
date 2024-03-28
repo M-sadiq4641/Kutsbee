@@ -196,4 +196,27 @@ h2 {
 .about-container {
   background-color: #f56d5e17;
   border-radius: 12px;
+  width: 420px !important;
+
+  @media (max-width: 576px) {
+    width: 90% !important;
+  }
+}
+
+/* form section */
+
+.form-wrapper {
+  background-image: url(/public/gallery/form-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+
+  @media (max-width: 440px) {
+    min-height: 500px;
+  }
+}
+
+.form-control {
+  border-radius: 0px !important;
 }
