@@ -206,7 +206,7 @@ h2 {
 /* form section */
 
 .form-wrapper {
-  background-image: url(/public/gallery/form-bg.png);
+  background-image: url(/gallery/form-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -219,4 +219,29 @@ h2 {
 
 .form-control {
   border-radius: 0px !important;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+/* faq,s section */
+
+.accordion-button {
+  background-color: #f56d5e17 !important;
+}
+
+.accordion-button::after {
+  background-color: #f5aba3;
+}
+
+.faq-flex {
+  width: 100%;
+}
+
+/* footer section */
+
+.footer-container {
+  min-height: 200px;
+  background-color: #ffede7;
 }
