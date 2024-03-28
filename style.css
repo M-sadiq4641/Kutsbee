@@ -166,7 +166,7 @@ h2 {
 /* journey section */
 
 .journey-wrapper {
-  background-image: url(/public/gallery/journey-bg.png);
+  background-image: url(/gallery/journey-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,4 +175,25 @@ h2 {
 
 .journey-button {
   border-radius: 0 !important;
+}
+
+/* about section */
+
+.about-h1 {
+  font-family: "Abhaya Libre", serif;
+  max-width: 884px;
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+.about-h5 {
+  font-family: "Inter", sans-serif;
+  color: #000000a8;
+}
+
+.about-container {
+  background-color: #f56d5e17;
+  border-radius: 12px;
 }
