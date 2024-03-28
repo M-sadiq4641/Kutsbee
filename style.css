@@ -244,4 +244,8 @@ h2 {
 .footer-container {
   min-height: 200px;
   background-color: #ffede7;
+
+  img {
+    cursor: pointer;
+  }
 }
