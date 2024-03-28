@@ -153,16 +153,6 @@ h2 {
   color: var(--pinkish);
 }
 
-.explore-img {
-  @media (max-width: 1200px) {
-    width: 500px;
-  }
-
-  @media (max-width: 576px) {
-    width: 100%;
-  }
-}
-
 /* journey section */
 
 .journey-wrapper {
@@ -196,11 +186,11 @@ h2 {
 .about-container {
   background-color: #f56d5e17;
   border-radius: 12px;
-  width: 420px !important;
+  /* width: 420px !important;
 
   @media (max-width: 576px) {
     width: 90% !important;
-  }
+  } */
 }
 
 /* form section */
@@ -233,10 +223,6 @@ h2 {
 
 .accordion-button::after {
   background-color: #f5aba3;
-}
-
-.faq-flex {
-  width: 100%;
 }
 
 /* footer section */
